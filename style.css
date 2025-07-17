@@ -1,0 +1,128 @@
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color:rgb(230, 230, 230); 
+  }
+  .navbar {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: 90px; 
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .nav-links a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 5px;
+    transition:color 0.5s ease,transform 0.3s ease ;
+  }
+  
+  .nav-links a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+  
+  .nav-links a:hover {
+    color: #ffcc70;
+    transform: scale(1.1);
+  }
+.test{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/cover.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+}
+.home{
+    width: 100%;
+    height: 120px;
+    background-color: hsl(0, 0%, 0%, 0.4);
+    color: #fff;
+    text-align: center;
+}
+.home p{
+    font-size: 20px;
+    padding-bottom:10px ;
+    position: relative;
+    bottom: 40px;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-size: 23px;
+}
+h1{
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    position: relative;
+    bottom: 20px;
+    color: #fff;
+}
+.button1{
+    padding: 10px;
+    background-color: #ffdb98;
+    color: black;
+    position: relative;
+    bottom: 45px;
+}
+.button2{
+    padding: 10px;
+    background-color: #fff;
+    color:black;
+    position: relative;
+    bottom: 45px;
+}
+.middle{
+    width: 500px;
+    height: 100px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.img-row{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 700px;
+    bottom: 100px;
+}
+h2{
+  font-family: "Playfair Display", serif;
+}
